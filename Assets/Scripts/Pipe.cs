@@ -11,7 +11,8 @@ public class Pipe : MonoBehaviour
     public Transform spawner;
 
     // Start is called before the first frame update
-    void Start()
+    // void Start()
+    public void StartPipe()
     {
         StartCoroutine(WaitAndSpray(100, 0.05f));
     }
